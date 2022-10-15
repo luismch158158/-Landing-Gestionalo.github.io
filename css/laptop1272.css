@@ -1,0 +1,9 @@
+.home_class {
+    height: 1225px;
+}
+
+@media (min-width: 1407px) {
+    .nuestro-equipo {
+        height: 600px;
+    }
+}

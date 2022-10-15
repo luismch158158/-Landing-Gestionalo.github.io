@@ -1,0 +1,84 @@
+.home_class {
+    height: 1109px;
+}
+
+.home_section img {
+    width: 70%;
+}
+
+.home_class .home_section h1 {
+    font-size: 6rem;
+    width: 70%;
+}
+
+.home_class .home_section p {
+    font-size: 2rem;
+    line-height: 30px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.coloca-email input {
+    width: 503px;
+    height: 59px;
+}
+
+.email-texto {
+    font-size: 1.5rem;
+}
+
+.coloca-email span {
+    width: 21.2px;
+    height: 15.61px;
+    left: 46px;
+    top: 22px;
+}
+
+.home_section button {
+    font-size: 1.4rem;
+    height: 53px;
+    width: 148px;
+    margin-bottom: 42px;
+    margin-top: 28px;
+}
+
+.introduccion {
+    height: 709px;
+}
+
+.introduccion h2 {
+    font-size: 4rem;
+    width: 60%;
+}
+
+.mensaje-final p {
+    font-size: 4rem;
+    line-height: 50px;
+}
+
+.modo-uso h2 {
+    font-size: 4rem;
+    padding-top: 63px;
+}
+
+.nuestro-equipo h2 {
+    font-size: 4rem;
+}
+
+.acerca-de h2 {
+    font-size: 4rem;
+}
+
+.tecnologias h2 {
+    font-size: 4rem;
+}
+
+.modo-uso .container-pasos-img {
+    margin: 0 auto;
+}
+
+@media (min-width: 1175px) {
+    .tecnologias {
+        height: 453px;
+    }
+}

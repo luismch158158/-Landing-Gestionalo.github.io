@@ -1,0 +1,153 @@
+.home_class {
+    background-image: url(/img/onda-home-422.png);
+    height: 581px;
+}
+
+@media (min-width: 510px) {
+    .home_class {
+        background-image: url(/img/onda-home-510.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 600px;
+        background-color: var(--gris);
+    }
+
+    .home_section img {
+        width: 60%;
+        height: 60%;
+        filter: drop-shadow(8px 6px 12px rgba(0, 0, 0, 0.25));
+    }
+}
+
+@media (min-width: 575px) {
+    .tecnologias {
+        height: 728px;
+    }
+
+    .tecnologias-iconos .card-icon-angular img {
+        margin: 18px 0 18px 0;
+    }
+
+    .card-icon-jwt img {
+        margin: 40px 0 27px 0;
+    }
+
+    .card-icon-sql img {
+        margin: 8px 0 18px 0;
+    }
+
+    .card-icon-csharp img {
+        margin: 34px 0 6px 0;
+    }
+}
+
+@media (min-width: 635px) {
+    .acerca-de {
+        height: 760px;
+    }
+}
+
+@media (min-width: 668px) {
+    .introduccion {
+        height: 1063px;
+    }
+
+    .introduccion .caracteristica-container {
+        margin: 46px auto;
+    }
+}
+
+@media (min-width: 669px) {
+    .nuestro-equipo {
+        height: 1000px;
+    }
+}
+
+@media (min-width: 736px) {
+    .home_class {
+        height: 676px;
+    }
+    .home_section img {
+        width: 70%;
+    }
+
+    .container-pasos-img img {
+        width: 449px;
+        height: 347px;
+    }
+
+    .modo-uso {
+        height: 928px;
+    }
+}
+
+@media (min-width: 839px) {
+    .home_class {
+        height: 795px;
+    }
+
+    .modo-uso {
+        height: 923px;
+    }
+
+
+}
+
+@media (min-width: 930px) {
+
+    header img {
+        width: 164px;
+        height: 39px;
+        margin-left: 62px;
+    }
+
+    .home_class {
+        height: 860px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+
+    }
+
+    header .navlinks {
+        display: block;
+        width: 480px;
+        margin-right: 62px;
+    }
+
+    header .navlinks ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    header .navlinks ul li a{
+        color: var(--blanco);
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 987px) {
+    .acerca-de {
+        height: 503px;
+    }
+}
+
+@media (min-width: 1035px) {
+    .introduccion {
+        height: 643px;
+    }
+}
+
+@media (min-width: 1043px) {
+    .modo-uso {
+        height: 641px;
+    }
+}
