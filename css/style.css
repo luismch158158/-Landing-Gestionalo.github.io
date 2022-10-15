@@ -52,7 +52,7 @@ body {
 }
 
 .home_class {
-    background-image: url('img/onda-home.png');
+    background: url('../img/onda-home.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ body {
     display: inline-block;
     width: 14px;
     height: 11px;
-    background-image: url('img/email.png');
+    background: url('../img/email.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

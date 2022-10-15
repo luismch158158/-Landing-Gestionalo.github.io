@@ -1,11 +1,11 @@
 .home_class {
-    background-image: url('img/onda-home-422.png');
+    background: url('../img/onda-home-422.png');
     height: 581px;
 }
 
 @media (min-width: 510px) {
     .home_class {
-        background-image: url('img/onda-home-510.png');
+        background: url('../img/onda-home-510.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
