@@ -1,3 +1,24 @@
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    column-gap: 51px;
+    margin-right: 74px;
+}
+
+.navegacion li {
+    list-style: none;
+}
+
+.navegacion li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navegacion li a:hover {
+    opacity: 80%;
+}
+
 .home_class {
     height: 1109px;
 }
@@ -34,12 +55,16 @@
     top: 22px;
 }
 
+.botones-link {
+    column-gap: 48px;
+}
+
 .home_section button {
     font-size: 1.4rem;
     height: 53px;
     width: 148px;
     margin-bottom: 42px;
-    margin-top: 28px;
+    margin-top: 35px;
 }
 
 .introduccion {
@@ -56,13 +81,30 @@
     line-height: 50px;
 }
 
+.proyecto-button {
+    font-size: 1.4rem;
+    height: 53px;
+    width: 148px;
+    margin-bottom: 42px;
+    margin-top: 35px;
+}
+
 .modo-uso h2 {
     font-size: 4rem;
     padding-top: 63px;
 }
 
+.nuestro-equipo {
+    height: 1100px;
+}
+
 .nuestro-equipo h2 {
     font-size: 4rem;
+    padding-top: 77px;
+}
+
+.acerca-de {
+    height: 670px;
 }
 
 .acerca-de h2 {
@@ -71,6 +113,7 @@
 
 .tecnologias h2 {
     font-size: 4rem;
+    padding-top: 77px;
 }
 
 .modo-uso .container-pasos-img {
@@ -79,6 +122,6 @@
 
 @media (min-width: 1175px) {
     .tecnologias {
-        height: 453px;
+        height: 526px;
     }
 }

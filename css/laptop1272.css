@@ -4,6 +4,12 @@
 
 @media (min-width: 1407px) {
     .nuestro-equipo {
-        height: 600px;
+        height: 685px;
+    }
+    .tecnologias h2 {
+        padding-top: 77px;
+    }
+    .nuestro-equipo h2 {
+        padding-top: 77px;
     }
 }

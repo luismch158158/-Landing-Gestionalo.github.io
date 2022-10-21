@@ -6,7 +6,7 @@
 5. Otros (Misceláneas, etc)
  */
 
-:root {
+ :root {
     --rojo: #7E011A;
     --rojo-degradado: linear-gradient(108.21deg, #EB0F3B 0%, #7E011A 97.89%);
     --lila: #E3E2FD;
@@ -38,6 +38,11 @@ header {
     top: 0;
     z-index: 1;
 }
+
+.navegacion {
+    display: none;
+}
+
 header img {
     width: 97px;
     height: 22px;
@@ -56,7 +61,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 581px;
+    height: 687px;
     background-color: var(--gris);
 }
 
@@ -117,9 +122,13 @@ body {
     top: 9px;
 }
 
+.botones-link {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
 
 .home_section button {
-    margin-top: 15px;
     border: 0;
     color: black;
     background: var(--boton-claro);
@@ -127,6 +136,13 @@ body {
     height: 24px;
     width: 100px;
     border-radius: 42px;
+}
+
+.solicita {
+    margin-top: 30px;
+}
+
+.ver-demo {
     margin-bottom: 40px;
 }
 
@@ -136,6 +152,8 @@ body {
     opacity: 80%;
     cursor: pointer;
 }
+
+
 
 .home_section img {
     width: 315px;
@@ -206,11 +224,26 @@ body {
 
 
 .acerca-de {
-    height: 1048px;
+    height: 1147px;
     display:flex;
     flex-direction: column;
     align-items: center;
     row-gap: 48px;
+}
+
+.proyecto-button {
+    border: 0;
+    color: black;
+    background: var(--boton-claro);
+    font-size: 0.8rem;
+    height: 24px;
+    width: 100px;
+    border-radius: 42px;
+}
+
+.proyecto-button:hover {
+    opacity: 75%;
+    cursor: pointer;
 }
 
 .acerca-de h2 {
@@ -246,7 +279,7 @@ body {
 
 
 .nuestro-equipo {
-    height: 1774px;
+    height: 1904px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -276,7 +309,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 240px;
-    height: 350px;
+    height: 380px;
     text-align: center;
     background: white;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -286,13 +319,14 @@ body {
 .equipo-card h3 {
     font-size: 2rem;
     text-align: center;
-    padding: 40px 0 20px 0;
+    padding: 40px 0 11px 0;
 }
 
 .equipo-card p {
     font-size: 1.2rem;
     width: 150px;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 
@@ -300,6 +334,17 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+.linkedin-link img {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.linkedin-link img:hover {
+    cursor: pointer;
+    opacity: 85%;
 }
 
 

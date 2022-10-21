@@ -21,6 +21,16 @@
 }
 
 @media (min-width: 575px) {
+
+    .botones-link {
+        flex-direction: row;
+        column-gap: 15px;
+    }
+
+    .home_section button {
+        margin-top: 30px;
+    }
+
     .tecnologias {
         height: 728px;
     }
@@ -44,7 +54,7 @@
 
 @media (min-width: 635px) {
     .acerca-de {
-        height: 760px;
+        height: 868px;
     }
 }
 
@@ -60,7 +70,7 @@
 
 @media (min-width: 669px) {
     .nuestro-equipo {
-        height: 1000px;
+        height: 1041px;
     }
 }
 
@@ -136,7 +146,7 @@
 
 @media (min-width: 987px) {
     .acerca-de {
-        height: 503px;
+        height: 576px;
     }
 }
 
