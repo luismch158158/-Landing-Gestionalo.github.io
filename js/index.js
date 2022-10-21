@@ -11,7 +11,7 @@ const sr = ScrollReveal({
 
 
 
-sr.reveal('.home_section, .acerca-de, .nuestro-equipo, .tecnologias, .mensaje-final');
+sr.reveal('.home_section, .nuestro-equipo, .tecnologias, .mensaje-final');
 
-sr.reveal('.card-caracteristica, .card-acerca, .equipo-card, .tecnologias-iconos, .botones-link, .card-icon-angular, .card-icon-jwt, .card-icon-sql, .card-icon-csharp', {interval:100});
+sr.reveal('.introduccion, .card-caracteristica, .acerca-de, .card-acerca, .equipo-card, .tecnologias-iconos, .botones-link, .card-icon-angular, .card-icon-jwt, .card-icon-sql, .card-icon-csharp', {interval:100});
 
