@@ -8,7 +8,7 @@
     <img src="img/idea.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Assignment by Projects</h3>
+<h3 align="center">Assignment by Projects Landing Page</h3>
 
   <p align="center">
     Web system that will manage the allocation of human resources by Leader and by projects in percentage
