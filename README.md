@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://luismch158158.github.io/Landing-Gestionalo.github.io/">
-    <img src="/img/management.png alt="Logo" width="80" height="80">
+    <img src="img/idea.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Assignment by Projects</h3>
