@@ -162,6 +162,8 @@ body {
 }
 
 .introduccion {
+    display: flex;
+    flex-direction: column;
     height: 1507px;
     background: var(--gris);
 }
@@ -225,9 +227,6 @@ body {
 
 .acerca-de {
     height: 1147px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
     row-gap: 48px;
 }
 
@@ -241,12 +240,18 @@ body {
     border-radius: 42px;
 }
 
+.div-button {
+    text-align: center;
+    padding-top: 32px;
+}
+
 .proyecto-button:hover {
     opacity: 75%;
     cursor: pointer;
 }
 
 .acerca-de h2 {
+    text-align: center;
     padding-top: 77px;
     font-size: 2.95rem;
 }
